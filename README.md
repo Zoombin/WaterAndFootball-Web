@@ -1,5 +1,6 @@
 # WaterAndFootball-Web
 app是开发文件夹
+
 dist是生产文件夹，用于部署
 
 生成dist文件需要先安装npm、bower和gulp
