@@ -1,0 +1,87 @@
+$icon-font-path: '../fonts/';
+
+$index_color_orange: #ef5d14;
+$index_color_yellow: #ffd437;
+
+$big_screen_min_width: 720px;
+$middle_screen_min_width: 410px;
+$small_screen_max_width: 370px;
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+
+/* Space out content a bit */
+body,html{
+  margin: 0;
+  padding: 0;
+}
+
+/* Responsive: Portrait tablets and up */
+
+
+.container {
+  background-image: url(../images/index_bg_l.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  min-height: 100vh;
+
+  padding-top: 60%;
+
+  @media screen and (min-width: $middle_screen_min_width) {
+    padding-top: 70%;
+  }
+  
+  @media screen and (min-width: $big_screen_min_width) {
+    max-width: 700px;
+    padding-top: 300px;
+    min-height: 100vh;
+  }
+
+  
+
+  @media screen and (max-width: $small_screen_max_width) {
+    background-image: url(../images/index_bg_m.jpg);
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.tran-box{
+  background-color: rgba(0, 0, 0, .7);
+  color: #fff;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.media-object{
+  max-width: 100px;
+  @media screen and (max-width: $small_screen_max_width) {
+    max-width: 80px;
+  }
+}
+
+.media{
+  padding: 10px;
+
+  h4{
+    font-size: 16px;
+  }
+  p{
+    margin: 0;
+    font-size: 12px;
+  }
+}
+
+.btn-orange{
+  color: $index_color_orange;
+  background-color: $index_color_yellow;
+  font-weight: bold;
+  margin: 5px 20px 0;
+  border-radius: 20px;
+  width: 80%;
+  max-width: 250px;
+}
+
