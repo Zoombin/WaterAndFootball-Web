@@ -52,29 +52,18 @@ body.ui-mobile-viewport, div.ui-mobile-viewport {
 	position: absolute;
     top: 10px;
 }
+#integral_draw_page #underpart_div  #winner_list  MARQUEE{
+	color: #fff;
+    font-size: 12px;
+    left: 30%;
+    position: absolute;
+    top: 15%;
+}
 
 #integral_draw_page #underpart_div  #draw_part img{
 	height: 100%;
     width: 100%;
 }
-
-
-
-#integral_draw_page #underpart_div .scroll_div {
-	color: white;
-    font-size: 12px;
-    height: auto;
-    left: 30%;
-    margin: 0 auto;
-    position: absolute;
-    top: 30%;
-    white-space: nowrap;
-} 
-#scroll_begin, #scroll_end, #scroll_begin ul, #scroll_end ul, #scroll_begin ul li, #scroll_end ul li{
-	display:inline;
-} 
-
-
 
 #integral_draw_page #underpart_div  #tip_div {
     font-size: 12px;

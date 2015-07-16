@@ -37,6 +37,7 @@ var IntegralDraw = {
 		*/
 		IntegralDraw.getTotalPoints();
 		IntegralDraw.getWinnerList();
+		IntegralDraw.getMyRecord();
 		
 	},
 	
@@ -68,9 +69,49 @@ var IntegralDraw = {
 				params : {},
 				success : function(data) {
 					IntegralDraw.hideMask("c", "正在加载...");
-					alert(data[0].userId);
-					for(var i=0;i<=data.length;i++){
-						html += '<li>'+data[i].userId+'<li>'
+					if(data.length != 0){
+						for(i=0;i<data.length;i++){
+							var str = data[i].userId;
+							var strpart = String(str).substring(3,8);
+							str = str.replace(strpart,"*****");
+							
+							html = html + '<span id="list_' + i +'">' + str + '</span><span>&nbsp;&nbsp;</span>';
+							
+						};
+						$('#list').append(html).trigger('create');
+					}else{
+						html = "";
+						$('#list').append(html).trigger('create');
+					}
+				},
+				error : function(XMLHttpRequest, textStatus, errorThrown) {
+					IntegralDraw.hideMask("c", "正在加载...");
+				}
+			}, "1");
+		}
+	},
+	getMyRecord : function() { 
+		var html = "";
+		IntegralDraw.showMask("c","正在加载...");
+		if ($.M.openAjax) {
+			$.M.post({
+				method : "/lottery/searchByUser",
+				params : {
+					"userId" : "15950325786"
+				},
+				success : function(data) {
+					IntegralDraw.hideMask("c", "正在加载...");
+					if(data.length != 0){
+						for(i=0;i<data.length;i++){
+							
+							html = html + '<div class="list-item"><div class="item-content">恒大主场球票</div><div class="item-date"><span>' 
+							+ data[i].doingDate + '</span></div></div>';
+							
+						};
+						$('#record_list').append(html).trigger('create');
+					}else{
+						html = "";
+						$('#record_list').append(html).trigger('create');
 					}
 				},
 				error : function(XMLHttpRequest, textStatus, errorThrown) {
