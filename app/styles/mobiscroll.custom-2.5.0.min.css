@@ -569,8 +569,7 @@
 	-moz-animation-name: dw-f-out
 }
 
-@
-keyframes dw-f-in {
+@keyframes dw-f-in {
 	from {opacity: 0
 }
 
@@ -579,8 +578,7 @@ to {
 }
 
 }
-@
--webkit-keyframes dw-f-in {
+@-webkit-keyframes dw-f-in {
 	from {opacity: 0
 }
 
@@ -589,8 +587,7 @@ to {
 }
 
 }
-@
--moz-keyframes dw-f-in {
+@-moz-keyframes dw-f-in {
 	from {opacity: 0
 }
 
@@ -599,8 +596,7 @@ to {
 }
 
 }
-@
-keyframes dw-f-out {
+@keyframes dw-f-out {
 	from {opacity: 1
 }
 
@@ -609,8 +605,7 @@ to {
 }
 
 }
-@
--webkit-keyframes dw-f-out {
+@-webkit-keyframes dw-f-out {
 	from {opacity: 1
 }
 
@@ -619,8 +614,7 @@ to {
 }
 
 }
-@
--moz-keyframes dw-f-out {
+@-moz-keyframes dw-f-out {
 	from {opacity: 1
 }
 
@@ -629,8 +623,7 @@ to {
 }
 
 }
-@
-keyframes dw-p-in {
+@keyframes dw-p-in {
 	from {opacity: 0;
 	transform: scale(0.8)
 }
@@ -641,8 +634,7 @@ to {
 }
 
 }
-@
--webkit-keyframes dw-p-in {
+@-webkit-keyframes dw-p-in {
 	from {opacity: 0;
 	-webkit-transform: scale(0.8)
 }
@@ -653,8 +645,7 @@ to {
 }
 
 }
-@
--moz-keyframes dw-p-in {
+@-moz-keyframes dw-p-in {
 	from {opacity: 0;
 	-moz-transform: scale(0.8)
 }
@@ -665,8 +656,7 @@ to {
 }
 
 }
-@
-keyframes dw-p-out {
+@keyframes dw-p-out {
 	from {opacity: 1;
 	transform: scale(1)
 }
@@ -677,8 +667,7 @@ to {
 }
 
 }
-@
--webkit-keyframes dw-p-out {
+@-webkit-keyframes dw-p-out {
 	from {opacity: 1;
 	-webkit-transform: scale(1)
 }
@@ -689,8 +678,7 @@ to {
 }
 
 }
-@
--moz-keyframes dw-p-out {
+@-moz-keyframes dw-p-out {
 	from {opacity: 1;
 	-moz-transform: scale(1)
 }
@@ -701,8 +689,7 @@ to {
 }
 
 }
-@
-keyframes dw-fl-in {
+@keyframes dw-fl-in {
 	from {opacity: 0;
 	transform: rotateY(90deg)
 }
@@ -713,8 +700,7 @@ to {
 }
 
 }
-@
--webkit-keyframes dw-fl-in {
+@-webkit-keyframes dw-fl-in {
 	from {opacity: 0;
 	-webkit-transform: rotateY(90deg)
 }
@@ -725,8 +711,7 @@ to {
 }
 
 }
-@
--moz-keyframes dw-fl-in {
+@-moz-keyframes dw-fl-in {
 	from {opacity: 0;
 	-moz-transform: rotateY(90deg)
 }
@@ -737,8 +722,7 @@ to {
 }
 
 }
-@
-keyframes dw-fl-out {
+@keyframes dw-fl-out {
 	from {opacity: 1;
 	transform: rotateY(0deg)
 }
@@ -749,8 +733,7 @@ to {
 }
 
 }
-@
--webkit-keyframes dw-fl-out {
+@-webkit-keyframes dw-fl-out {
 	from {opacity: 1;
 	-webkit-transform: rotateY(0deg)
 }
@@ -761,8 +744,7 @@ to {
 }
 
 }
-@
--moz-keyframes dw-fl-out {
+@-moz-keyframes dw-fl-out {
 	from {opacity: 1;
 	-moz-transform: rotateY(0deg)
 }
@@ -773,8 +755,7 @@ to {
 }
 
 }
-@
-keyframes dw-sw-in {
+@keyframes dw-sw-in {
 	from {opacity: 0;
 	transform: rotateY(-90deg)
 }
@@ -785,8 +766,7 @@ to {
 }
 
 }
-@
--webkit-keyframes dw-sw-in {
+@-webkit-keyframes dw-sw-in {
 	from {opacity: 0;
 	-webkit-transform: rotateY(-90deg)
 }
@@ -797,8 +777,7 @@ to {
 }
 
 }
-@
--moz-keyframes dw-sw-in {
+@-moz-keyframes dw-sw-in {
 	from {opacity: 0;
 	-moz-transform: rotateY(-90deg)
 }
@@ -809,8 +788,7 @@ to {
 }
 
 }
-@
-keyframes dw-sw-out {
+@keyframes dw-sw-out {
 	from {opacity: 1;
 	transform: rotateY(0deg)
 }
@@ -821,8 +799,7 @@ to {
 }
 
 }
-@
--webkit-keyframes dw-sw-out {
+@-webkit-keyframes dw-sw-out {
 	from {opacity: 1;
 	-webkit-transform: rotateY(0deg)
 }
@@ -833,8 +810,7 @@ to {
 }
 
 }
-@
--moz-keyframes dw-sw-out {
+@-moz-keyframes dw-sw-out {
 	from {opacity: 1;
 	-moz-transform: rotateY(0deg)
 }
@@ -845,8 +821,7 @@ to {
 }
 
 }
-@
-keyframes dw-sh-in {
+@keyframes dw-sh-in {
 	from {opacity: 0;
 	transform: translateX(-100%)
 }
@@ -857,8 +832,7 @@ to {
 }
 
 }
-@
--webkit-keyframes dw-sh-in {
+@-webkit-keyframes dw-sh-in {
 	from {opacity: 0;
 	-webkit-transform: translateX(-100%)
 }
@@ -869,8 +843,7 @@ to {
 }
 
 }
-@
--moz-keyframes dw-sh-in {
+@-moz-keyframes dw-sh-in {
 	from {opacity: 0;
 	-moz-transform: translateX(-100%)
 }
@@ -881,8 +854,7 @@ to {
 }
 
 }
-@
-keyframes dw-sh-out {
+@keyframes dw-sh-out {
 	from {opacity: 1;
 	transform: translateX(0)
 }
@@ -893,8 +865,7 @@ to {
 }
 
 }
-@
--webkit-keyframes dw-sh-out {
+@-webkit-keyframes dw-sh-out {
 	from {opacity: 1;
 	-webkit-transform: translateX(0)
 }
@@ -905,8 +876,7 @@ to {
 }
 
 }
-@
--moz-keyframes dw-sh-out {
+@-moz-keyframes dw-sh-out {
 	from {opacity: 1;
 	-moz-transform: translateX(0)
 }
@@ -917,8 +887,7 @@ to {
 }
 
 }
-@
-keyframes dw-dw-sv-in {
+@keyframes dw-dw-sv-in {
 	from {opacity: 0;
 	transform: translateY(-100%)
 }
@@ -929,8 +898,7 @@ to {
 }
 
 }
-@
--webkit-keyframes dw-dw-sv-in {
+@-webkit-keyframes dw-dw-sv-in {
 	from {opacity: 0;
 	-webkit-transform: translateY(-100%)
 }
@@ -941,8 +909,7 @@ to {
 }
 
 }
-@
--moz-keyframes dw-dw-sv-in {
+@-moz-keyframes dw-dw-sv-in {
 	from {opacity: 0;
 	-moz-transform: translateY(-100%)
 }
@@ -953,8 +920,7 @@ to {
 }
 
 }
-@
-keyframes dw-sv-out {
+@keyframes dw-sv-out {
 	from {opacity: 1;
 	transform: translateY(0)
 }
@@ -965,8 +931,7 @@ to {
 }
 
 }
-@
--webkit-keyframes dw-sv-out {
+@-webkit-keyframes dw-sv-out {
 	from {opacity: 1;
 	-webkit-transform: translateY(0)
 }
@@ -977,8 +942,7 @@ to {
 }
 
 }
-@
--moz-keyframes dw-sv-out {
+@-moz-keyframes dw-sv-out {
 	from {opacity: 1;
 	-moz-transform: translateY(0)
 }
@@ -989,8 +953,7 @@ to {
 }
 
 }
-@
-keyframes dw-sd-in {
+@keyframes dw-sd-in {
 	from {transform: translateY(-100%)
 }
 
@@ -999,8 +962,7 @@ to {
 }
 
 }
-@
--webkit-keyframes dw-sd-in {
+@-webkit-keyframes dw-sd-in {
 	from {opacity: 1;
 	-webkit-transform: translateY(-100%)
 }
@@ -1011,8 +973,7 @@ to {
 }
 
 }
-@
--moz-keyframes dw-sd-in {
+@-moz-keyframes dw-sd-in {
 	from {-moz-transform: translateY(-100%)
 }
 
@@ -1021,8 +982,7 @@ to {
 }
 
 }
-@
-keyframes dw-sd-out {
+@keyframes dw-sd-out {
 	from {transform: translateY(0)
 }
 
@@ -1031,8 +991,7 @@ to {
 }
 
 }
-@
--webkit-keyframes dw-sd-out {
+@-webkit-keyframes dw-sd-out {
 	from {opacity: 1;
 	-webkit-transform: translateY(0)
 }
@@ -1043,8 +1002,7 @@ to {
 }
 
 }
-@
--moz-keyframes dw-sd-out {
+@-moz-keyframes dw-sd-out {
 	from {-moz-transform: translateY(0)
 }
 
@@ -1053,8 +1011,7 @@ to {
 }
 
 }
-@
-keyframes dw-su-in {
+@keyframes dw-su-in {
 	from {transform: translateY(100%)
 }
 
@@ -1063,8 +1020,7 @@ to {
 }
 
 }
-@
--webkit-keyframes dw-su-in {
+@-webkit-keyframes dw-su-in {
 	from {opacity: 1;
 	-webkit-transform: translateY(100%)
 }
@@ -1075,8 +1031,7 @@ to {
 }
 
 }
-@
--moz-keyframes dw-su-in {
+@-moz-keyframes dw-su-in {
 	from {-moz-transform: translateY(100%)
 }
 
@@ -1085,8 +1040,7 @@ to {
 }
 
 }
-@
-keyframes dw-su-out {
+@keyframes dw-su-out {
 	from {transform: translateY(0)
 }
 
@@ -1095,8 +1049,7 @@ to {
 }
 
 }
-@
--webkit-keyframes dw-su-out {
+@-webkit-keyframes dw-su-out {
 	from {opacity: 1;
 	-webkit-transform: translateY(0)
 }
@@ -1107,8 +1060,7 @@ to {
 }
 
 }
-@
--moz-keyframes dw-su-out {
+@-moz-keyframes dw-su-out {
 	from {-moz-transform: translateY(0)
 }
 
