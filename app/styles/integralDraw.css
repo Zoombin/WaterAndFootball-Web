@@ -1,0 +1,148 @@
+
+#integral_draw_page {
+	height: 100%;
+	/*overflow: hidden !important;*/
+}
+
+#integral_draw_page #integral_draw_content{
+	/* height: 100%; */
+	width: 100%;
+	padding: 0 !important;
+	z-index: 5;
+}
+
+#integral_draw_page #upside_div{
+	height: auto;
+    width: 100%;
+	position: relative;
+}
+#integral_draw_page #upside_div img{
+	height: 100%;
+    width: 100%;
+}
+
+#integral_draw_page #upside_div  #activity_rules{
+	position: absolute;
+	right: 12px;
+	top: 12px;
+	height: auto;
+	width: 25%;
+}
+
+#integral_draw_page #underpart_div{
+	height: 100%;
+    width: 100%;
+	position: relative;
+	background: url("images/bg.png");
+	background-size: 100% auto;
+}
+#integral_draw_page #underpart_div img{
+	height: 100%;
+    width: 100%;
+}
+#integral_draw_page #underpart_div  #winner_list {
+	position: absolute;
+    top: 10px;
+}
+
+#integral_draw_page #underpart_div .scroll_div {
+	color: white;
+    font-size: 12px;
+    height: auto;
+    left: 20%;
+    margin: 0 auto;
+    position: absolute;
+    top: 30%;
+    white-space: nowrap;
+    width: 600px;
+} 
+#scroll_begin, #scroll_end, #scroll_begin ul, #scroll_end ul, #scroll_begin ul li, #scroll_end ul li{
+	display:inline;
+} 
+#integral_draw_page #underpart_div  #tip_div {
+	font-size: 10px;
+    left: 12px;
+    position: absolute;
+    text-shadow: none;
+    top: 50px;
+}
+#integral_draw_page #underpart_div #draw_part{
+	width: 100%;
+	height: auto;
+	padding-top: 80px;
+}
+#integral_draw_page #underpart_div #draw_part .choose-player{
+	display:inline-block;
+	padding-left: 2%;
+	width: 93px;
+	height: 176px;
+	position: relative;
+}
+#integral_draw_page #underpart_div #draw_part .click-icon{
+	height: 52px;
+    left: 45px;
+    position: absolute;
+    top: 76px;
+    width: 36px;
+}
+#integral_draw_page #underpart_div  #data_list{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 28px;
+	height: 500px;
+	background: url("images/content_bg.png") no-repeat;
+	background-size: 100% auto;	
+} 
+#integral_draw_page #underpart_div  #data_details{
+	position: relative;
+	font-size: 14px;
+	text-shadow: none;
+	height: 29px;
+} 
+#integral_draw_page #underpart_div  #data_details .details-1{
+	display: inline-block;
+	padding-left: 10px;
+    padding-top: 5px;
+} 
+#integral_draw_page #underpart_div  #data_details .details-2{
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	top: 5px;
+} 
+
+#integral_draw_page #underpart_div  #data_content{
+	width: 100%;
+	height: 35px;
+	border-top: 1px solid #D6E7B8;
+	font-size: 14px;
+	line-height: 35px;
+}
+#integral_draw_page #underpart_div  #data_content img{
+	height: 14px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 4px;
+	float: left;
+}
+
+#integral_draw_page #underpart_div  #rules{
+	width:100%;
+	height:35px;
+	padding-left: 20px;
+	border-bottom: 1px solid #D6E7B8;
+} 
+
+.file-upload-div {
+	display: none;
+}
+
+.mask_div {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(242, 242, 242, 0);
+	z-index: 999;
+	display: none;
+}
